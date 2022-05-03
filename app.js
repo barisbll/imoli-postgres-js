@@ -13,19 +13,6 @@ const People = require("./models/people");
 
 const createServer = require("./util/server");
 
-// const app = express();
-
-// app.use(bodyParser.json());
-// app.use(cors());
-
-// app.use(routes);
-
-// People.belongsToMany(Movie, { through: MoviePeople });
-// Movie.belongsToMany(People, { through: MoviePeople });
-
-// Movie.belongsToMany(MovieList, { through: MovieListMovie });
-// MovieList.belongsToMany(Movie, { through: MovieListMovie });
-
 const app = createServer();
 
 sequelize
